@@ -1,0 +1,56 @@
+body {
+  font-family: 'Sora', sans-serif;
+  font-size: 50px;
+}
+.container {
+  position: relative;
+  height: 200px;
+  margin-top: 10%;
+  background: black;
+}
+.clock {
+  margin: auto;
+  position: absolute;
+  background: skyblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock .clock-bullet {
+  margin-right: 10px;
+}
+.clock .clock-bullet:last-child {
+  margin-right: 0;
+}
+.clock .clock--year {
+  width: 200px;
+  border: 1px black solid;
+}
+.clock .clock--month {
+  width: 200px;
+  border: 1px black solid;
+}
+.clock .clock--day {
+  width: 200px;
+  border: 1px black solid;
+}
+.clock .clock--meridiem {
+  width: 200px;
+  border: 1px black solid;
+}
+.clock .clock--hours {
+  width: 200px;
+  border: 1px black solid;
+}
+.clock .clock--minutes {
+  width: 200px;
+  border: 1px black solid;
+}
+.clock .clock--seconds {
+  width: 200px;
+  border: 1px black solid;
+}
+.clock p {
+  text-align: center;
+}
