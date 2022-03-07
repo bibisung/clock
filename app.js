@@ -2,7 +2,7 @@ const startTime = () => {
   const time = new Date();
   const day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
-  const title = `Pillsang's power clock!!`
+  const title = `Lost time is never found again...`
 
   let meridiem = '';
   let hours = 0;
