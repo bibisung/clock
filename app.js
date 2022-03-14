@@ -42,9 +42,9 @@ const startTime = () => {
 
   titleElement.innerHTML = title;
   meridiemElement.innerHTML = meridiem;
-  hoursElment.innerHTML = hours;
-  minutesElment.innerHTML = minutes;
-  secondsElment.innerHTML = seconds;
+  hoursElment.innerHTML = `${hours} H`;
+  minutesElment.innerHTML = `${minutes} M`;
+  secondsElment.innerHTML = `${seconds} S`;
   dateElement.innerHTML = `${day[time.getDay()]}, ${months[time.getMonth()]} ${time.getDate()} ${time.getFullYear()}`;
 
   setTimeout(startTime, 1000);
